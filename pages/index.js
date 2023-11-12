@@ -6,14 +6,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Resume Fabricator</title>
+        <link rel="icon" href="/Makerspace.png" />
       </Head>
 
       <main>
-        <Header title="Hello this is a test" />
+        <Header title="Start by uploading your resume" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          {/* Create button to upload pdf */}
+          <input type="file" accept=".pdf" onChange={FileSystemHandle}/>
+          <code>Upload PDF</code>
         </p>
       </main>
 

@@ -1,0 +1,31 @@
+/* styles.css */
+/* .file-input {
+    position: absolute;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+  } */
+
+  .custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .image-profile {
+    text-align: center;
+  }
+  .image-profile img {
+    display: block;
+    margin: 0 auto;
+    /* height: 100%;
+    width: 100%;
+    border-radius: 50%; */
+  }
+  

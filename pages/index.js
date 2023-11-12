@@ -3,6 +3,11 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
+  const FileSystemHandle = (event) => {
+    const file = event.target.files[0];
+    console.log('Selected file:', file);
+  };
+  
   return (
     <div className="container">
       <Head>
